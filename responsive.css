@@ -1,0 +1,66 @@
+
+@media only screen and (max-width:1750px){
+    #whatWeLove{
+        padding:40px 70px;
+    }
+}
+
+
+@media only screen and (max-width:1260px){
+    #tablet img{
+     margin-top:40px;
+    }
+    body{
+        font-size:80%;
+    }
+}
+
+@media only screen and (max-width:980px)and (min-width:800px){
+    #bigger{
+        display: flex;
+        justify-content: space-between;   
+    }
+
+
+}
+
+@media only screen and (max-width:980px){
+    #wrap{
+        flex-direction: column;
+    }
+    #whatWeLove{
+        padding:40px 30px;
+    }
+
+    #thePics img{
+        width:25%;
+    }
+}
+
+@media only screen and (max-width:650px){
+    #headOfWWL p{
+        text-align: left;
+        padding-left:10px;
+    }
+}
+
+@media only screen and (max-width:530px){
+    #thePics{
+        padding:50px 0;
+    }
+
+    body{
+        font-size: 70%;
+    }
+
+    #headOfWWL h1{
+        font-size: 2em;
+    }
+    .forFlex{
+        flex-direction: column;
+    }
+
+    .forFlex div{
+        margin-right:10px;
+    }
+}
